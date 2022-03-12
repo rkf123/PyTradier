@@ -1,3 +1,14 @@
+import Terminate_prog as tp  # to use: tp.Terminate (<msg>)
+
+from pytradier.tradier import Tradier
+
+tp.Terminate ("Debug STOP!")
+
+# authenticate with the Tradier API
+tradier = Tradier(token='sGb6eUDEJc5DS9KYB6LYTCxGACWO', account_id='6YA18757', endpoint='brokerage')
+#tradier = Tradier(token='abc123', account_id='123456', sandbox=False)
+
+
 from pytradier.tradier import Tradier
 
 # authenticate with the Tradier API
